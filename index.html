@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <!-- GENERAL META -->
         <meta charset="utf-8">
@@ -19,8 +19,17 @@
             HEADER 
         ------------------------------->
         <header>
-            <div class="container">
+            <div class="container row">
                 <a class="logo" href="#"><img src="./img/logo.svg"></a>
+                <nav>
+                    <ul class="row">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -35,7 +44,48 @@
                 <p><strong>Strict</strong> is a responsive theme with a clean and minimal look.</p>
                 <a href="#">Call to action</a>
             </div>
-            <a href="#"><i class="fas fa-chevron-down"></i></a>
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </section>
+
+        <!------------------------------
+            ABOUT US 
+        ------------------------------->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">Simple & pure design.</h2>
+                <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+            </div>
+        </section>
+
+        <!------------------------------
+            SERVICES
+        ------------------------------->
+        <section class="services" id="services">
+            <div class="container row">
+                <div class="service-item col-4">
+                    <span class="icon-box">
+                        <i class="fas fa-mobile"></i>
+                    </span>
+                    <h3>Optimized for all devices</h3>
+                    <p>STRICT has been designed to be fully responsive on all devices</p>
+                </div>
+
+                <div class="service-item col-4">
+                    <span class="icon-box">
+                        <i class="fas fa-paper-plane"></i>
+                    </span>
+                    <h3>Clean & Minimal Design</h3>
+                    <p>This multipurpose theme is especially created to be used for different projects.</p>
+                </div>
+
+                <div class="service-item col-4">
+                    <span class="icon-box">
+                        <i class="fas fa-bullhorn"></i>
+                    </span>
+                    <h3>Font Awesome Icon</h3>
+                    <p>This multipurpose theme is especially created to be used for different projects.</p>
+                </div>
+            </div>
         </section>
     </body>
 </html>
