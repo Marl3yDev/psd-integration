@@ -1,0 +1,27 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="154" height="37" viewBox="0 0 154 37">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #2d3950;
+      }
+
+      .cls-2 {
+        fill: #15a4fa;
+      }
+
+      .cls-3 {
+        font-size: 30px;
+        text-anchor: middle;
+        font-family: Lato;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Shape">
+    <rect id="Black_bottom" data-name="Black bottom" class="cls-1" y="19" width="15" height="15"/>
+    <rect id="Black" class="cls-1" x="19" y="3" width="15" height="15"/>
+    <rect id="Blue_Bottom" data-name="Blue Bottom" class="cls-2" x="19" y="22" width="15" height="15"/>
+    <rect id="Blue_Top" data-name="Blue Top" class="cls-2" width="15" height="15"/>
+  </g>
+  <text id="STRICT" class="cls-3" x="102" y="30">STRICT</text>
+</svg>
